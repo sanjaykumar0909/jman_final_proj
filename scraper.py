@@ -106,6 +106,8 @@ def google_results(query, page) -> str:
         # Navigate to Google search page
         page.goto("https://www.google.com", timeout=100000)
 
+        page.wait_for_timeout(1000*60)  # Wait for the page to load
+
         # Accept cookies if prompted
         if page.query_selector("button[aria-label='Accept all']"):
             page.click("button[aria-label='Accept all']")
