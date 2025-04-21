@@ -8,16 +8,18 @@ To automate the process of extraction of company name's information from the int
     ```bash
     python -m venv .venv
     ```
-
-2. Install dependencies:
+    
+2. Activate the virtual environment:
+   ```bash
+   .venv\Scripts\activate
+   ```
+   
+3. Install dependencies:
     ```bash
     pip install -r requirements.txt
     ```
 
-3. Activate the virtual environment:
-   ```bash
-   .venv\Scripts\activate
-   ```
+
 
 ## Execution Steps
 
