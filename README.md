@@ -4,13 +4,17 @@ To automate the process of extraction of company name's information from the int
 # Project Instructions
 
 ## Setup
+1. Create virtual environment
+    ```bash
+    python -m venv .venv
+    ```
 
-1. Install dependencies:
+2. Install dependencies:
     ```bash
     pip install -r requirements.txt
     ```
 
-1. Activate the virtual environment:
+3. Activate the virtual environment:
    ```bash
    .venv\Scripts\activate
    ```
